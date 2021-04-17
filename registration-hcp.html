@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 14px;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;            
+        }
+
+        body, p {            
+            color: #7c7c7e;
+        }
+
+        .container {
+            margin: auto;
+            max-width: 600px;
+        }
+
+        .basic-info {
+            padding: 1rem 2rem;
+        }
+
+        .registering-message {
+            padding: 2rem 0;
+        }
+
+        .registering-message .logo {
+            position: relative;
+            background-color: #ddeee8;  
+            padding: 1.5rem 2rem; 
+            padding-left: 8%;
+            overflow: hidden;     
+        }
+
+        .registering-message .title {
+            background: linear-gradient(to right,#a4bdca, #00346e, #00346e, #00346e, #a4bdca);
+            color: white;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 48px;
+            font-size: 18px;
+            letter-spacing: 2px;
+        }
+
+        .registering-message .title h2 {
+            font-weight: 400;
+        }
+
+        .registering-message .message {
+            background-color: #fffcf5;
+            padding: 2rem;
+            padding-left: 16%;
+        }
+
+        .isi-copy {
+            padding: 2rem;
+        }
+
+        .red-text{
+            color: #e93b3e;
+        }
+
+        .blue-text {
+            color: #182a54;
+        }
+
+        .my-1 {
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .mb-1 {
+            margin-bottom: 1rem;
+        }
+
+        .bold {
+            font-weight: bold;
+        }
+
+/*         ul {
+            list-style: none;            
+        } */
+
+
+        ul li {
+            position: relative;
+            margin-left: 1.5rem;
+        }
+
+/*         ul li::before {
+            content: "";
+            position: absolute;
+            left: 0px;
+            top: 6px;          
+            display: block;
+            width: 6px;
+            height: 6px;
+            background-color: #182a54;
+            border-radius: 50%;
+        } */
+
+        .isi-copy a{
+            color: #7c7c7e;
+        }
+
+        .footer-copy {
+            background-color: #182a54;
+            color: #fff;
+            padding: 1rem 0;
+        }
+
+        .logo-links {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            margin-bottom: 1rem;
+            padding: 1rem 2rem;
+        }
+
+        .logo-links .links {
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .logo-links .links a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+
+        .footer-copy .info {
+            padding: 1rem 2rem;
+        }
+
+        .footer-copy hr {
+            border-color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="basic-info">
+            <p><b>To:</b> [Variable email]</p>
+            <p><b>From:</b> The KLISYRI® team &lt;info@connect.almirall.com&gt;</p>
+            <p><b>Subject:</b> Welcome-Your Registration Has Been Confirmed</p>
+        </div>     
+        
+        <div class="registering-message">
+            <div class="logo">
+                <img src="logo.png" alt="logo">                                
+            </div>
+            <div class="title"><h2>THANK YOU FOR SIGNING UP!</h2></div>
+            <div class="message">
+                <p class="blue-text mb-1"><b>Dear... <span class="red-text">[TITLE] [LAST NAME]</span>:</b></p>
+                <p class="mb-1">
+                    Thank you for registering to receive important news and updates about KLISYRI® (tirbanibulin) ointment, a new microtubule inhibitor indicated for the topical treatment for actinic keratosis (AK) of the face or scalp. <br><br>
+
+                    We look forward to sharing with you information and details about this new treatment for AK, and again, thank you for expressing an interest in KLISYRI®. <br><br>
+                    
+                    Please see Important Safety Information below.                                        
+                </p>          
+                <p><b>Sincerely,</b></p>
+                <p class="red-text">The KLISYRI® Team </p>
+            </div>
+        </div>
+
+        <div class="isi-copy">
+            <p class="mb-1 blue-text bold">
+                INDICATION
+            </p>
+            <p class="my-1">KLISYRI is a microtubule inhibitor indicated for the topical treatment of actinic keratosis of the face or scalp. </p>
+
+            <p class="my-1 blue-text bold">IMPORTANT SAFETY INFORMATION</p>
+            <p class="my-1 blue-text bold">WARNINGS AND PRECAUTIONS</p>
+            <p class="blue-text bold">Ophthamilc Adverse Reactions</p>
+            <p>
+                KLISYRI may cause eye irritation. Avoid transfer of the drug into the eyes and to the periocular area during and after application. Wash hands immediately after application. If accidental exposure occurs, instruct patient to flush eyes with water and seek medical care as soon as possible. <br><br>
+
+                <b>Local Skin Reactions </b><br>
+                Local skin reactions, including severe reactions (erythema, flaking/scaling, crusting, and in less than 1% swelling, vesiculation/pustulation) in the treated area have occurred after topical application of KLISYRI. Avoid use until skin is healed from any previous drug, procedure, or surgical treatment. Occlusion after topical application of KLISYRI is more likely to result in irritation.  <br><br>
+                
+                <b>ADVERSE REACTIONS</b><br>
+                
+                The most common adverse reactions (incidence ≥2%) were local skin reactions, application site pruritus, and application site pain. <br><br>
+                
+                <b>Please see full <a href="#">Prescribing Information</a> and <a href="#">Patient Information</a>.</b> </p><br><br>
+            <small class="my-1">Please do not reply to this message as it is sent from an unmonitored address. You can unsubscribe by clicking <a href="#" class="red-text" style="text-decoration: none;">here</a>.</small>
+
+        </div>
+
+        <footer class="footer-copy">
+            <div class="logo-links"><img src="almirall-logo.png" alt=""> <div class="links"><a href="#">Contact Us</a> &bull; <a href="#">Privacy Policy</a></div></div>
+            <hr>
+            <div class="info">
+                Klisyri® is a registered trademark of Almirall, LLC. 
+                © 2005-2021 Almirall, LLC, 707 Eagleview Blvd., Suite 200, Exton, PA 19341. US-TIRBA-2000071 01/2021. All rights reserved.
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
